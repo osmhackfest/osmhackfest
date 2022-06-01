@@ -47,6 +47,8 @@ import org3 from './assets/orgs/KLL Logo.png'
 import org4 from './assets/orgs/oknp.svg'
 import org5 from './assets/orgs/open_tech_community_logo_for_white_bg.png'
 
+import MapBG from './assets/map-osm.png'
+
 
 const college_list = [college1,
 college2,
@@ -113,6 +115,8 @@ function App(props) {
     <Main>
       <Header>
       <div style={{position:'absolute', width: '100%', height: 800, top:0, zIndex:0}}><ParticleBackground settings={settings4}/></div>
+
+        <Hero style={{ backgroundImage: `url(${MapBG})`, backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed'}}>
         <NavBar logo={Logo}>
           <NavItem link={registration_form_link}>
             Registration
@@ -124,7 +128,6 @@ function App(props) {
             Workshop
           </NavItem>
         </NavBar>
-        <Hero>
           <Section>
             <Title>
               OSM Hackfest 2022

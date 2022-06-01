@@ -6,7 +6,7 @@ export const Main = ({children}) => {
 }
 export const NavBar = ({children, logo}) => {
   return(
-    <div style={{position:'relative', zIndex:2}}>
+    <div style={{position:'relative', zIndex:2, textAlign:'left'}}>
       <img src={logo} style={{paddingLeft: 30, maxHeight:150, maxWidth: 250, textAlign:'left'}}/>
       <ul style={{listStyleType: 'none', margin:30, padding:0, float: 'right'}}>
         {children}
@@ -16,8 +16,8 @@ export const NavBar = ({children, logo}) => {
 export const NavItem = ({children, link}) => {
   return(<li style={{display: 'inline'}}><a href={link} style={{color: '#F56526', textDecoration: 'none', padding: 10}}><span style={{borderBottom: '2px solid #999'}}>{children}</span></a></li>)
 }
-export const Hero = ({children}) => {
-  return(<div style={{clear:'both',position:'relative', zIndex:1, color: '#eee', textAlign:'center', paddingBottom: 70}}>{children}</div>)
+export const Hero = ({children, style}) => {
+  return(<div style={{...style, clear:'both',position:'relative', zIndex:1, color: '#eee', textAlign:'center', paddingBottom: 70}}>{children}</div>)
 }
 export const HeroDescription = ({children}) => {
   return(
