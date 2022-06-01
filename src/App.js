@@ -172,7 +172,7 @@ function App(props) {
       <PageContent>
       <div style={{backgroundColor: '#eee'}}>
       <br/>
-      <iframe width="804" height="452" src="https://www.youtube.com/embed/Hl8f9B_i6nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style={{maxWidth: 804, width: '100%',  height: 452}} src="https://www.youtube.com/embed/Hl8f9B_i6nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br/>
       <br/>
       </div>
@@ -207,7 +207,7 @@ function App(props) {
           <ContentDescription>
             <h4 style={{color: '#555', fontWeight: 200, maxWidth: 720, margin: 'auto'}}>This interactive hands-on workshop cover ideas for development of Free and Open Source Software; introduction to OSM projects; contribution, extraction, analysis and visualisation of geospatial data.</h4>
             <div>
-              <div style={{paddingTop:5}}><h3>Presenters</h3></div> {/*Rob Savoye, Petya Kangalova & Ramya Ragupathy<br/>*/}
+              <div style={{paddingTop:5}}><h3 style={{color: '#F56526'}}>Presenters</h3></div> {/*Rob Savoye, Petya Kangalova & Ramya Ragupathy<br/>*/}
               <img src={RobSaboye} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
               <img src={Petya} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
               <img src={Ramya} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
