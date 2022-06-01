@@ -50,7 +50,7 @@ export const Button = ({children, onClick}) => {
   return(<button onClick={onClick} style={{fontSize:16, border: 'none', backgroundColor: '#F56526', color: '#fff', cursor:'pointer', padding: 10, margin: 5, borderRadius: 30}}>{children}</button>)
 }
 export const Footer = ({children}) => {
-  return(<div style={{backgroundColor:'#202020', padding: 50, color:'#eee'}}>{children}</div>)
+  return(<div style={{backgroundColor:'#202020', padding: 50, color:'#eee', textAlign:'center'}}>{children}</div>)
 }
 export const Logos = ({items}) => {
   return(<div>{items.map(item=><img src={item} style={{maxHeight: 80, maxWidth: 230, margin: 20}}/>)}</div>)
