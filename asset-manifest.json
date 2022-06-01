@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/osmhackfest/static/css/main.50c50468.css",
-    "main.js": "/osmhackfest/static/js/main.10422ecc.js",
+    "main.js": "/osmhackfest/static/js/main.7fc91ad5.js",
     "static/js/787.78909cda.chunk.js": "/osmhackfest/static/js/787.78909cda.chunk.js",
     "static/media/Rob_savoye.png": "/osmhackfest/static/media/Rob_savoye.f77a1fc27aa0a12a59e3.png",
     "static/media/ramya.png": "/osmhackfest/static/media/ramya.94a28828bfd5d9f7a7e6.png",
@@ -31,11 +31,11 @@
     "static/media/logo-wrc.png": "/osmhackfest/static/media/logo-wrc.9baa997265d3638f9f81.png",
     "index.html": "/osmhackfest/index.html",
     "main.50c50468.css.map": "/osmhackfest/static/css/main.50c50468.css.map",
-    "main.10422ecc.js.map": "/osmhackfest/static/js/main.10422ecc.js.map",
+    "main.7fc91ad5.js.map": "/osmhackfest/static/js/main.7fc91ad5.js.map",
     "787.78909cda.chunk.js.map": "/osmhackfest/static/js/787.78909cda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50c50468.css",
-    "static/js/main.10422ecc.js"
+    "static/js/main.7fc91ad5.js"
   ]
 }
