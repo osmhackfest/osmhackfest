@@ -170,10 +170,17 @@ function App(props) {
         </HeroDescription>
       </Header>
       <PageContent>
+      <div style={{backgroundColor: '#eee'}}>
+      <br/>
+      <iframe width="804" height="452" src="https://www.youtube.com/embed/Hl8f9B_i6nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br/>
+      <br/>
+      </div>
         <Section>
           <ContentTitle>
             <span id={schedule_id}>Event Details</span>
           </ContentTitle>
+
           <ContentDescription>
             <img src={EventTimeline} style={{maxHeight: 450, paddingRight: 10, marginRight: 10, maxWidth: '100%'}}/>
           </ContentDescription>
@@ -199,21 +206,25 @@ function App(props) {
           </ContentTitle>
           <ContentDescription>
             <h4 style={{color: '#555', fontWeight: 200, maxWidth: 720, margin: 'auto'}}>This interactive hands-on workshop cover ideas for development of Free and Open Source Software; introduction to OSM projects; contribution, extraction, analysis and visualisation of geospatial data.</h4>
-          <br/>
-            <b>Date and time:</b> June 7,  2022 - 10:00 AM to 4:00 PM<br/>
-            <b>Location:</b> Hotel Himalaya (‪183471604‬) | OpenStreetMap<br/><br/>
-            <div style={{backgroundColor: '#eee'}}>
+            <div>
               <div style={{paddingTop:5}}><h3>Presenters</h3></div> {/*Rob Savoye, Petya Kangalova & Ramya Ragupathy<br/>*/}
               <img src={RobSaboye} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
               <img src={Petya} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
               <img src={Ramya} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
             </div>
+            <div style={{border: '2px solid #555', width: 'fit-content', margin:'auto', padding: 20, backgroundColor:'#eee', borderRadius:20}}>
+            <b>Date and time:</b> June 7,  2022 - 10:00 AM to 4:00 PM<br/>
+            <b>Location:</b> Hotel Himalaya (‪183471604‬) | OpenStreetMap<br/>
+            </div>
             <br/>
-            <h3>Participation</h3>
+            <br/>
             <ol style={{maxWidth: 720,margin:'auto', textAlign: 'left'}}>
+            <div>Participation Note:</div>
               <li>We have limited seats for up to 60 participants. After you submit this form, we will contact you through email before the event with other details of the event.</li>
               <li>As the events will be hands on, participants are expected to bring their laptops for the event.</li>
             </ol>
+            <br/>
+            <br/>
             <Button onClick={()=>window.location.href=workshop_form_link}>
               Apply for this workshop
             </Button>
