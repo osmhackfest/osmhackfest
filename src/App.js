@@ -105,7 +105,7 @@ function App(props) {
       opacityTransitionTime: 5000
     }
   }
-  const schedule_form_link = '/#schedule'
+  const schedule_form_link = '#schedule'
   const workshop_form_link = 'https://docs.google.com/forms/d/1b4wnGVfSXz35qB76Q8anWIrQCtrHE67Jdy06ITbz3vE/edit'
   const registration_form_link = 'https://docs.google.com/forms/d/e/1FAIpQLSfHaH6JDEEl6Bct1032mdWmErJDF41ZDbrwTP34gQmNdnWjvg/viewform'
   return (
@@ -116,7 +116,7 @@ function App(props) {
           <NavItem link={registration_form_link}>
             Registration
           </NavItem>
-          <NavItem link='#schedule'>
+          <NavItem link={schedule_form_link}>
             Schedule
           </NavItem>
         </NavBar>
@@ -168,42 +168,41 @@ function App(props) {
             <span id="schedule">Event Details</span>
           </ContentTitle>
           <ContentDescription>
-            <img src={EventTimeline} style={{maxHeight: 250, paddingRight: 10, marginRight: 10}}/>
+            <img src={EventTimeline} style={{maxHeight: 250, paddingRight: 10, marginRight: 10, maxWidth: '100%'}}/>
           </ContentDescription>
           <br/>
+          <div style={{backgroundColor: '#eee'}}>
           <br/>
-          <h3>Main Event</h3>
+          <h2 style={{color:'#333'}}>June 20 to June 24</h2>
           <ContentDescription>
-            <img src={EventInfo} style={{maxHeight: 250, borderRight: '1px solid #353F54', paddingRight: 10, marginRight: 10}}/>
-            <img src={EventActivities} style={{maxHeight: 250}}/>
+            <img src={EventInfo} style={{maxHeight: 250, borderRight: '5px solid #4c5f84', paddingRight: 10, marginRight: 10, maxWidth: '100%'}}/>
+            <img src={EventActivities} style={{maxHeight: 250, maxWidth: '100%'}}/>
           </ContentDescription>
             <br/>
           <Button onClick={()=>window.location.href=registration_form_link}>
             Register for this event
           </Button>
+          <br/>
+          <br/>
+          </div>
         </Section>
         <Section>
           <ContentTitle>
             OSM Workshop (Pre-Event)
           </ContentTitle>
-          <h4>Pre-Event Details</h4>
           <ContentDescription>
+            <h4 style={{color: '#555', fontWeight: 200, maxWidth: 720, margin: 'auto'}}>This interactive hands-on workshop cover ideas for development of Free and Open Source Software; introduction to OSM projects; contribution, extraction, analysis and visualisation of geospatial data.</h4>
+          <br/>
             <b>Date and time:</b> June 7,  2022 - 10:00 AM to 4:00 PM<br/>
             <b>Location:</b> Hotel Himalaya (‪183471604‬) | OpenStreetMap<br/><br/>
-            <b>Presenters:</b> {/*Rob Savoye, Petya Kangalova & Ramya Ragupathy<br/>*/}
-            <div>
+            <div style={{backgroundColor: '#eee'}}>
+              <div style={{paddingTop:5}}><h3>Presenters</h3></div> {/*Rob Savoye, Petya Kangalova & Ramya Ragupathy<br/>*/}
               <img src={RobSaboye} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
               <img src={Petya} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
               <img src={Ramya} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
             </div>
             <br/>
-            <b>Aim of the workshop:</b>
-            <ol style={{maxWidth: 720,margin:'auto', textAlign: 'left'}}>
-              <li>Workshop will cover ideas of Free and Open Source Software development, introduction to OSM projects, contribution, extraction, analysis and visualisation of geospatial data.</li>
-              <li>Workshop will be interactive and will include hands on sessions.</li>
-            </ol>
-            <br/>
-            <b>Participation:</b>
+            <h3>Participation</h3>
             <ol style={{maxWidth: 720,margin:'auto', textAlign: 'left'}}>
               <li>We have limited seats for up to 60 participants. After you submit this form, we will contact you through email before the event with other details of the event.</li>
               <li>As the events will be hands on, participants are expected to bring their laptops for the event.</li>
@@ -211,9 +210,11 @@ function App(props) {
             <Button onClick={()=>window.location.href=workshop_form_link}>
               Apply for this workshop
             </Button>
+            <br/>
+            <br/>
           </ContentDescription>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             Participating Colleges
           </ContentTitle>
@@ -229,13 +230,15 @@ function App(props) {
             <Logos items={club_list}/>
           </ContentDescription>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             Organizers
           </ContentTitle>
           <ContentDescription>
             <Logos items={org_list}/>
           </ContentDescription>
+          <br/>
+          <br/>
         </Section>
       </PageContent>
       <Footer>
