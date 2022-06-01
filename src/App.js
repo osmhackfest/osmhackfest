@@ -105,7 +105,8 @@ function App(props) {
       opacityTransitionTime: 5000
     }
   }
-  const schedule_form_link = '#schedule'
+  const schedule_id = 'schedule'
+  const pre_event_id = 'pre-event'
   const workshop_form_link = 'https://docs.google.com/forms/d/1b4wnGVfSXz35qB76Q8anWIrQCtrHE67Jdy06ITbz3vE/edit'
   const registration_form_link = 'https://docs.google.com/forms/d/e/1FAIpQLSfHaH6JDEEl6Bct1032mdWmErJDF41ZDbrwTP34gQmNdnWjvg/viewform'
   return (
@@ -116,8 +117,11 @@ function App(props) {
           <NavItem link={registration_form_link}>
             Registration
           </NavItem>
-          <NavItem link={schedule_form_link}>
+          <NavItem link={`#${schedule_id}`}>
             Schedule
+          </NavItem>
+          <NavItem link={`#${pre_event_id}`}>
+            Pre-event
           </NavItem>
         </NavBar>
         <Hero>
@@ -138,7 +142,7 @@ function App(props) {
             <Button onClick={()=>window.location.href=registration_form_link}>
               Register
             </Button>
-            <Button onClick={()=>window.location.href=schedule_form_link}>
+            <Button onClick={()=>window.location.href=`#${schedule_id}`}>
               Schedule
             </Button>
           </Section>
@@ -165,7 +169,7 @@ function App(props) {
       <PageContent>
         <Section>
           <ContentTitle>
-            <span id="schedule">Event Details</span>
+            <span id={schedule_id}>Event Details</span>
           </ContentTitle>
           <ContentDescription>
             <img src={EventTimeline} style={{maxHeight: 250, paddingRight: 10, marginRight: 10, maxWidth: '100%'}}/>
@@ -188,7 +192,7 @@ function App(props) {
         </Section>
         <Section>
           <ContentTitle>
-            OSM Workshop (Pre-Event)
+            <span id={pre_event_id}>OSM Workshop (Pre-Event)</span>
           </ContentTitle>
           <ContentDescription>
             <h4 style={{color: '#555', fontWeight: 200, maxWidth: 720, margin: 'auto'}}>This interactive hands-on workshop cover ideas for development of Free and Open Source Software; introduction to OSM projects; contribution, extraction, analysis and visualisation of geospatial data.</h4>
@@ -242,8 +246,9 @@ function App(props) {
         </Section>
       </PageContent>
       <Footer>
-        <b>Facebook Page: </b> <a style={{color:'white'}} href="https://fb.com/opentechcommunity">Open Tech Community</a><br/>
-        <b>Website: </b> <a style={{color:'white'}} href="https://osmhackfest.github.io">OSM Hackfest 2022</a><br/>
+        <span style={{padding: 10}}><b>Facebook Page: </b> <a style={{color:'white'}} href="https://fb.com/opentechcommunity">Open Tech Community</a></span>
+        <span style={{padding: 10}}><b>Website: </b> <a style={{color:'white'}} href="https://osmhackfest.github.io">OSM Hackfest 2022</a></span>
+        <span style={{padding: 10}}><b>Old Site: </b> <a style={{color:'white'}} href="https://osmhackfest.github.io/old-site">OSM Hackfest 2022</a></span>
       </Footer>
     </Main>
   );
