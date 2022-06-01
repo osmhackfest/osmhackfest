@@ -106,7 +106,7 @@ function App(props) {
     }
   }
   const schedule_id = 'schedule'
-  const pre_event_id = 'pre-event'
+  const pre_event_id = 'workshop'
   const workshop_form_link = 'https://docs.google.com/forms/d/1b4wnGVfSXz35qB76Q8anWIrQCtrHE67Jdy06ITbz3vE/edit'
   const registration_form_link = 'https://docs.google.com/forms/d/e/1FAIpQLSfHaH6JDEEl6Bct1032mdWmErJDF41ZDbrwTP34gQmNdnWjvg/viewform'
   return (
@@ -121,7 +121,7 @@ function App(props) {
             Schedule
           </NavItem>
           <NavItem link={`#${pre_event_id}`}>
-            Pre-event
+            Workshop
           </NavItem>
         </NavBar>
         <Hero>
@@ -172,7 +172,7 @@ function App(props) {
             <span id={schedule_id}>Event Details</span>
           </ContentTitle>
           <ContentDescription>
-            <img src={EventTimeline} style={{maxHeight: 250, paddingRight: 10, marginRight: 10, maxWidth: '100%'}}/>
+            <img src={EventTimeline} style={{maxHeight: 450, paddingRight: 10, marginRight: 10, maxWidth: '100%'}}/>
           </ContentDescription>
           <br/>
           <div style={{backgroundColor: '#eee'}}>
