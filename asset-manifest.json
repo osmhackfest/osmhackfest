@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.50c50468.css",
-    "main.js": "/static/js/main.04865ba9.js",
+    "main.js": "/static/js/main.73fc4f35.js",
     "static/js/787.78909cda.chunk.js": "/static/js/787.78909cda.chunk.js",
     "static/media/Rob_savoye.png": "/static/media/Rob_savoye.f77a1fc27aa0a12a59e3.png",
     "static/media/ramya.png": "/static/media/ramya.94a28828bfd5d9f7a7e6.png",
     "static/media/Kathmandu_University_Logo.png": "/static/media/Kathmandu_University_Logo.b636f91c3005f6baa4c6.png",
     "static/media/Kec_kalimati.jpg": "/static/media/Kec_kalimati.72e45bd7e0a513888573.jpg",
     "static/media/petya.png": "/static/media/petya.d6161af9a1d09bcfec1e.png",
-    "static/media/logo.png": "/static/media/logo.a36e4809d6654eb672cc.png",
     "static/media/academia_logo.png": "/static/media/academia_logo.f49f400dcda02b8e813c.png",
     "static/media/icmsym.png": "/static/media/icmsym.17746b8543e852398164.png",
     "static/media/open_tech_community_logo_for_white_bg.png": "/static/media/open_tech_community_logo_for_white_bg.a4fa881646815ef3f5e7.png",
@@ -18,6 +17,7 @@
     "static/media/osac_logo.jpeg": "/static/media/osac_logo.d35e3027be657b9e775c.jpeg",
     "static/media/i-ces-logo.png": "/static/media/i-ces-logo.487819f706fd33637157.png",
     "static/media/Padma_kanya_logo.jpeg": "/static/media/Padma_kanya_logo.bc1047c9e34a67c69a6a.jpeg",
+    "static/media/logo.png": "/static/media/logo.f127877c36f4addce413.png",
     "static/media/pn_campus.png": "/static/media/pn_campus.6a9dac7bbea0669baf51.png",
     "static/media/Kathford-International-College-of-Engineering-and-Management.jpeg": "/static/media/Kathford-International-College-of-Engineering-and-Management.52156f83739fbab72058.jpeg",
     "static/media/event_info.png": "/static/media/event_info.455fdba853bfbe5b5575.png",
@@ -31,11 +31,11 @@
     "static/media/logo-wrc.png": "/static/media/logo-wrc.9baa997265d3638f9f81.png",
     "index.html": "/index.html",
     "main.50c50468.css.map": "/static/css/main.50c50468.css.map",
-    "main.04865ba9.js.map": "/static/js/main.04865ba9.js.map",
+    "main.73fc4f35.js.map": "/static/js/main.73fc4f35.js.map",
     "787.78909cda.chunk.js.map": "/static/js/787.78909cda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50c50468.css",
-    "static/js/main.04865ba9.js"
+    "static/js/main.73fc4f35.js"
   ]
 }
