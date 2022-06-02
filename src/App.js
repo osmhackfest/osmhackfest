@@ -48,6 +48,7 @@ import org4 from './assets/orgs/oknp.svg'
 import org5 from './assets/orgs/open_tech_community_logo_for_white_bg.png'
 
 import MapBG from './assets/map-osm.png'
+import ImpactAreas from './assets/impact_areas.png'
 
 
 const college_list = [college1,
@@ -178,7 +179,7 @@ function App(props) {
       </div>
         <Section>
           <ContentTitle>
-            <span id={schedule_id}>Event Details</span>
+            <span id={schedule_id}>Hackfest Timeline & Activities</span>
           </ContentTitle>
 
           <ContentDescription>
@@ -187,7 +188,14 @@ function App(props) {
           <br/>
           <div style={{backgroundColor: '#eee'}}>
           <br/>
-          <h2 style={{color:'#333'}}>June 20 to June 24</h2>
+          <h3 style={{color:'#333'}}>Impact Areas for Idea submission</h3>
+          <p>
+            You can submit yous ideas in any of the following Impact Areas
+          </p>
+          <img src={ImpactAreas} style={{maxHeight: 450, maxWidth: '100%'}}/>
+          </div>
+          <div>
+          <h3 style={{color:'#333'}}>Main Event</h3>
           <ContentDescription>
             <img src={EventInfo} style={{maxHeight: 250, borderRight: '5px solid #4c5f84', paddingRight: 10, marginRight: 10, maxWidth: '100%'}}/>
             <img src={EventActivities} style={{maxHeight: 250, maxWidth: '100%'}}/>
@@ -200,7 +208,7 @@ function App(props) {
           <br/>
           </div>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             <span id={pre_event_id}>OSM Workshop (Pre-Event)</span>
           </ContentTitle>
@@ -232,7 +240,7 @@ function App(props) {
             <br/>
           </ContentDescription>
         </Section>
-        <Section bgColor="#eee">
+        <Section>
           <ContentTitle>
             Participating Colleges
           </ContentTitle>
@@ -240,7 +248,7 @@ function App(props) {
             <Logos items={college_list}/>
           </ContentDescription>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             Supporting Student Clubs
           </ContentTitle>
@@ -248,7 +256,7 @@ function App(props) {
             <Logos items={club_list}/>
           </ContentDescription>
         </Section>
-        <Section bgColor="#eee">
+        <Section>
           <ContentTitle>
             Organizers
           </ContentTitle>
