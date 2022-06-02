@@ -56,7 +56,7 @@ export const Logos = ({items}) => {
   return(<div>{items.map(item=><img src={item} style={{maxHeight: 80, maxWidth: 230, margin: 20}}/>)}</div>)
 }
 export const Cards = ({items}) => {
-  return(<div style={{display: 'flex', flexWrap:'wrap', alignItems: 'stretch', width:items.length*222, maxWidth: 920, margin:'auto'}} >
+  return(<div style={{display: 'flex', flexWrap:'wrap', alignItems: 'stretch', maxWidth:items.length*222 > 920 ? 920 : items.length*222, margin:'auto'}} >
       {items.map(item=>{
         return(
             <span  key={item.name} style={{backgroundColor: '#fff',flex:'0 0 200px', margin: 10, border: '1px solid #ccc', boxShadow: '2px 2px 6px 0px  rgba(0,0,0,0.3)'}}>
