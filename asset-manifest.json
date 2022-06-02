@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.50c50468.css",
-    "main.js": "/static/js/main.de686e38.js",
+    "main.js": "/static/js/main.68a55b0e.js",
     "static/js/787.78909cda.chunk.js": "/static/js/787.78909cda.chunk.js",
-    "static/media/Rob_savoye.png": "/static/media/Rob_savoye.f77a1fc27aa0a12a59e3.png",
-    "static/media/ramya.png": "/static/media/ramya.94a28828bfd5d9f7a7e6.png",
     "static/media/map-osm.png": "/static/media/map-osm.3c46996a9ebc0b33eb08.png",
     "static/media/impact_areas.png": "/static/media/impact_areas.a8af54a3f9cb6a999064.png",
+    "static/media/ramya.png": "/static/media/ramya.c44abcab608015b5d330.png",
     "static/media/Kathmandu_University_Logo.png": "/static/media/Kathmandu_University_Logo.b636f91c3005f6baa4c6.png",
     "static/media/Kec_kalimati.jpg": "/static/media/Kec_kalimati.72e45bd7e0a513888573.jpg",
-    "static/media/petya.png": "/static/media/petya.d6161af9a1d09bcfec1e.png",
+    "static/media/ichchha.jpeg": "/static/media/ichchha.68aab597366956b67b6d.jpeg",
     "static/media/event_timeline.png": "/static/media/event_timeline.55784ca318724504491f.png",
     "static/media/academia_logo.png": "/static/media/academia_logo.f49f400dcda02b8e813c.png",
+    "static/media/Rob_savoye.jpeg": "/static/media/Rob_savoye.488452a6c6b9ac3aa9af.jpeg",
     "static/media/icmsym.png": "/static/media/icmsym.17746b8543e852398164.png",
     "static/media/open_tech_community_logo_for_white_bg.png": "/static/media/open_tech_community_logo_for_white_bg.a4fa881646815ef3f5e7.png",
     "static/media/event_activities.png": "/static/media/event_activities.5b8d8c8e1c5ac7ade61d.png",
@@ -20,8 +20,11 @@
     "static/media/i-ces-logo.png": "/static/media/i-ces-logo.487819f706fd33637157.png",
     "static/media/Padma_kanya_logo.jpeg": "/static/media/Padma_kanya_logo.bc1047c9e34a67c69a6a.jpeg",
     "static/media/logo.png": "/static/media/logo.f127877c36f4addce413.png",
+    "static/media/nirab.jpeg": "/static/media/nirab.615f50722f445320783f.jpeg",
+    "static/media/leen.jpg": "/static/media/leen.b6ed12bf43e82852b338.jpg",
     "static/media/pn_campus.png": "/static/media/pn_campus.6a9dac7bbea0669baf51.png",
     "static/media/Kathford-International-College-of-Engineering-and-Management.jpeg": "/static/media/Kathford-International-College-of-Engineering-and-Management.52156f83739fbab72058.jpeg",
+    "static/media/petya.jpeg": "/static/media/petya.9ff494052cda9b564289.jpeg",
     "static/media/event_info.png": "/static/media/event_info.455fdba853bfbe5b5575.png",
     "static/media/Humanitarian OpenStreetMap Team HOT Logo.png": "/static/media/Humanitarian OpenStreetMap Team HOT Logo.548680d324d6bc566ebc.png",
     "static/media/oknp.svg": "/static/media/oknp.8ad2a342b90361d3104c4e86caf5c916.svg",
@@ -31,13 +34,14 @@
     "static/media/butwal_multiple_campus.png": "/static/media/butwal_multiple_campus.82e37496a252d5824179.png",
     "static/media/NCIT_LOGO.jpeg": "/static/media/NCIT_LOGO.696d7d9110210545ec96.jpeg",
     "static/media/logo-wrc.png": "/static/media/logo-wrc.9baa997265d3638f9f81.png",
+    "static/media/saurav.jpeg": "/static/media/saurav.bca8ef4aa583d0c8ddd9.jpeg",
     "index.html": "/index.html",
     "main.50c50468.css.map": "/static/css/main.50c50468.css.map",
-    "main.de686e38.js.map": "/static/js/main.de686e38.js.map",
+    "main.68a55b0e.js.map": "/static/js/main.68a55b0e.js.map",
     "787.78909cda.chunk.js.map": "/static/js/787.78909cda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50c50468.css",
-    "static/js/main.de686e38.js"
+    "static/js/main.68a55b0e.js"
   ]
 }
