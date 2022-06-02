@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.50c50468.css",
-    "main.js": "/static/js/main.555c3ece.js",
+    "main.js": "/static/js/main.de686e38.js",
     "static/js/787.78909cda.chunk.js": "/static/js/787.78909cda.chunk.js",
     "static/media/Rob_savoye.png": "/static/media/Rob_savoye.f77a1fc27aa0a12a59e3.png",
     "static/media/ramya.png": "/static/media/ramya.94a28828bfd5d9f7a7e6.png",
     "static/media/map-osm.png": "/static/media/map-osm.3c46996a9ebc0b33eb08.png",
+    "static/media/impact_areas.png": "/static/media/impact_areas.a8af54a3f9cb6a999064.png",
     "static/media/Kathmandu_University_Logo.png": "/static/media/Kathmandu_University_Logo.b636f91c3005f6baa4c6.png",
     "static/media/Kec_kalimati.jpg": "/static/media/Kec_kalimati.72e45bd7e0a513888573.jpg",
     "static/media/petya.png": "/static/media/petya.d6161af9a1d09bcfec1e.png",
@@ -32,11 +33,11 @@
     "static/media/logo-wrc.png": "/static/media/logo-wrc.9baa997265d3638f9f81.png",
     "index.html": "/index.html",
     "main.50c50468.css.map": "/static/css/main.50c50468.css.map",
-    "main.555c3ece.js.map": "/static/js/main.555c3ece.js.map",
+    "main.de686e38.js.map": "/static/js/main.de686e38.js.map",
     "787.78909cda.chunk.js.map": "/static/js/787.78909cda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50c50468.css",
-    "static/js/main.555c3ece.js"
+    "static/js/main.de686e38.js"
   ]
 }
