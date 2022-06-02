@@ -37,6 +37,7 @@ import club5 from './assets/clubs/KU_open_sorce_circle_logo.png'
 import club6 from './assets/clubs/NOSK_logo.png'
 import club7 from './assets/clubs/osac_logo.jpeg'
 import club8 from './assets/clubs/PK_IT_club_logo.jpeg'
+import club9 from './assets/clubs/coesis_logo.png'
 
 import org1 from './assets/orgs/HOT_OMH_Asia_Pacific_Logo_COLOUR.png'
 import org2 from './assets/orgs/Humanitarian OpenStreetMap Team HOT Logo.png'
@@ -54,6 +55,7 @@ import Saurav from './assets/saurav.jpeg'
 import Leen from './assets/leen.jpg'
 import Nirab from './assets/nirab.jpeg'
 import Ichchha from './assets/ichchha.jpeg'
+import Kshitiz from './assets/kshitiz.png'
 
 const college_list = [college1,
 college2,
@@ -81,7 +83,8 @@ const club_list =[
   club5,
   club6,
   club7,
-  club8
+  club8,
+  club9
 ]
 
 const org_list = [
@@ -94,9 +97,10 @@ const org_list = [
 
 const mentors =[
   {avatar: RobSavoye, name: 'Rob Savoye', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Technical Lead'},,
-  {avatar: Leen, name: 'Leen D’hondt', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Product Development Manager'},
+  // {avatar: Leen, name: 'Leen D’hondt', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Product Development Manager'},
   {avatar: Ramya, name: 'Ramya Ragupathy', organization: 'Humanitarian OpenStreetMap Team', designation: 'Module Owner'},
-  {avatar: Petya, name: 'Petya Kangalova', organization: 'Humanitarian OpenStreetMap Team', designation: 'Tech Collective Facilitator'},
+  {avatar: Kshitiz, name: 'Kshitiz Sharma', organization: 'Humanitarian OpenStreetMap Team', designation: 'Backend Developer'},
+  // {avatar: Petya, name: 'Petya Kangalova', organization: 'Humanitarian OpenStreetMap Team', designation: 'Tech Collective Facilitator'},
   {avatar: Nirab, name: 'Nirab Pudasaini', organization: 'Open Mapping Hub - Asia Pacific', designation: 'Open Tech and Innovation Specialist'},
   {avatar: Saurav, name: 'Saurav Bhattarai', organization: 'Kathmandu Living Labs', designation: 'Systems Architect and Engineer'},
   {avatar: Ichchha, name: 'Ichchha Moktan', organization: 'Kathmandu Living Labs', designation: 'Tech and Innovation Lead'}
@@ -192,7 +196,7 @@ function App(props) {
       <PageContent>
       <div style={{backgroundColor: '#eee'}}>
       <br/>
-      <iframe style={{maxWidth: 804, width: '100%',  height: 452}} src="https://www.youtube.com/embed/Hl8f9B_i6nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style={{maxWidth: 804, width: '100%',  height: 452}} src="https://www.youtube.com/embed/I8qwqPypUrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br/>
       <br/>
       </div>
