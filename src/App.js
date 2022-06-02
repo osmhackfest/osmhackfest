@@ -1,15 +1,12 @@
 import {
   Header, Main, NavBar, NavItem, Hero, Section, Title,
   PageContent, ContentTitle, ContentDescription, Logos,
-  Subtitle, Description, Button, Footer, HeroDescription
+  Subtitle, Description, Button, Footer, HeroDescription, Cards
 } from './components/all'
 import Logo from './assets/logo.png'
 import EventInfo from './assets/event_info.png'
 import EventTimeline from './assets/event_timeline.png'
 import EventActivities from './assets/event_activities.png'
-import RobSaboye from './assets/Rob_savoye.png'
-import Petya from './assets/petya.png'
-import Ramya from './assets/ramya.png'
 import './App.css';
 
 import ParticleBackground from 'react-particle-backgrounds'
@@ -50,6 +47,13 @@ import org5 from './assets/orgs/open_tech_community_logo_for_white_bg.png'
 import MapBG from './assets/map-osm.png'
 import ImpactAreas from './assets/impact_areas.png'
 
+import RobSavoye from './assets/Rob_savoye.jpeg'
+import Petya from './assets/petya.jpeg'
+import Ramya from './assets/ramya.png'
+import Saurav from './assets/saurav.jpeg'
+import Leen from './assets/leen.jpg'
+import Nirab from './assets/nirab.jpeg'
+import Ichchha from './assets/ichchha.jpeg'
 
 const college_list = [college1,
 college2,
@@ -86,6 +90,21 @@ const org_list = [
   org3,
   org4,
   org5
+]
+
+const mentors =[
+  {avatar: RobSavoye, name: 'Rob Savoye', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Technical Lead'},,
+  {avatar: Leen, name: 'Leen D’hondt', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Product Development Manager'},
+  {avatar: Ramya, name: 'Ramya Ragupathy', organization: 'Humanitarian OpenStreetMap Team', designation: 'Module Owner'},
+  {avatar: Petya, name: 'Petya Kangalova', organization: 'Humanitarian OpenStreetMap Team', designation: 'Tech Collective Facilitator'},
+  {avatar: Nirab, name: 'Nirab Pudasaini', organization: 'Open Mapping Hub - Asia Pacific', designation: 'Open Tech and Innovation Specialist'},
+  {avatar: Saurav, name: 'Saurav Bhattarai', organization: 'Kathmandu Living Labs', designation: 'Systems Architect and Engineer'},
+  {avatar: Ichchha, name: 'Ichchha Moktan', organization: 'Kathmandu Living Labs', designation: 'Tech and Innovation Lead'}
+]
+const presenters =[
+  {avatar: RobSavoye, name: 'Rob Savoye', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Technical Lead'},
+  {avatar: Ramya, name: 'Ramya Ragupathy', organization: 'Humanitarian OpenStreetMap Team', designation: 'Module Owner'},
+  {avatar: Petya, name: 'Petya Kangalova', organization: 'Humanitarian OpenStreetMap Team', designation: 'Tech Collective Facilitator'}
 ]
 
 function App(props) {
@@ -200,15 +219,23 @@ function App(props) {
             <img src={EventInfo} style={{maxHeight: 250, borderRight: '5px solid #4c5f84', paddingRight: 10, marginRight: 10, maxWidth: '100%'}}/>
             <img src={EventActivities} style={{maxHeight: 250, maxWidth: '100%'}}/>
           </ContentDescription>
+          <br/>
+          <Section bgColor="#eee">
+          <br/>
+          <h3 style={{color:'#333'}}>Mentors</h3>
+          <ContentDescription>
+            <Cards items={mentors}/>
             <br/>
+          </ContentDescription>
           <Button onClick={()=>window.location.href=registration_form_link}>
-            Register for this event
+            Submit idea for Hackfest
           </Button>
           <br/>
           <br/>
+          </Section>
           </div>
         </Section>
-        <Section bgColor="#eee">
+        <Section>
           <ContentTitle>
             <span id={pre_event_id}>OSM Workshop (Pre-Event)</span>
           </ContentTitle>
@@ -216,9 +243,8 @@ function App(props) {
             <h4 style={{color: '#555', fontWeight: 200, maxWidth: 720, margin: 'auto'}}>This interactive hands-on workshop cover ideas for development of Free and Open Source Software; introduction to OSM projects; contribution, extraction, analysis and visualisation of geospatial data.</h4>
             <div>
               <div style={{paddingTop:5}}><h3 style={{color: '#F56526'}}>Presenters</h3></div> {/*Rob Savoye, Petya Kangalova & Ramya Ragupathy<br/>*/}
-              <img src={RobSaboye} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
-              <img src={Petya} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
-              <img src={Ramya} style={{maxHeight: 150, border: '5px solid #131F37', margin: 10}}/>
+              <Cards items={presenters}/>
+              <br/>
             </div>
             <div style={{border: '2px solid #555', width: 'fit-content', margin:'auto', padding: 20, backgroundColor:'#eee', borderRadius:20}}>
             <b>Date and time:</b> June 7,  2022 - 10:00 AM to 4:00 PM<br/>
@@ -240,7 +266,7 @@ function App(props) {
             <br/>
           </ContentDescription>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             Participating Colleges
           </ContentTitle>
@@ -248,7 +274,7 @@ function App(props) {
             <Logos items={college_list}/>
           </ContentDescription>
         </Section>
-        <Section bgColor="#eee">
+        <Section>
           <ContentTitle>
             Supporting Student Clubs
           </ContentTitle>
@@ -256,7 +282,7 @@ function App(props) {
             <Logos items={club_list}/>
           </ContentDescription>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             Organizers
           </ContentTitle>
