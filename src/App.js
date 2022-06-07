@@ -268,7 +268,7 @@ function App(props) {
             </ol>
             <br/>
             <br/>
-            <Button onClick={()=>window.location.href=workshop_form_link}>
+            <Button onClick={()=>window.location.href=workshop_form_link} disabled>
               Apply for this workshop
             </Button>
             <br/>

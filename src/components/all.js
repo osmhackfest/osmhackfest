@@ -46,8 +46,8 @@ export const Description = ({children}) => {
 export const ContentDescription = ({children}) => {
   return(<p style={{margin:0}}>{children}</p>)
 }
-export const Button = ({children, onClick}) => {
-  return(<button onClick={onClick} style={{fontSize:16, border: 'none', backgroundColor: '#F56526', color: '#fff', cursor:'pointer', padding: 10, margin: 5, borderRadius: 30}}>{children}</button>)
+export const Button = ({children, onClick, disabled}) => {
+  return(<button onClick={onClick} disabled={disabled ? true : false} style={{fontSize:16, border: 'none', backgroundColor: '#F56526', textDecoration: disabled?'line-through':'', color: '#fff', cursor:disabled?'not-allowed':'pointer', padding: 10, margin: 5, borderRadius: 30}}>{children}</button>)
 }
 export const Footer = ({children}) => {
   return(<div style={{backgroundColor:'#202020', padding: 50, color:'#eee', textAlign:'center'}}>{children}</div>)
@@ -63,7 +63,7 @@ export const Cards = ({items}) => {
               <img src={item.avatar} alt={item.name} style={{maxWidth: '100%'}}/>
               <div style={{padding: 10}}>
               <b>{item.name}</b>
-              <div><b style={{color:'#555'}}>{item.designation}</b></div>
+              {/*<div><b style={{color:'#555'}}>{item.designation}</b></div>*/}
               <div><small>{item.organization}</small></div>
               </div>
             </span>
