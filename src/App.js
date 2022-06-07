@@ -56,6 +56,8 @@ import Leen from './assets/leen.jpg'
 import Nirab from './assets/nirab.jpeg'
 import Ichchha from './assets/ichchha.jpeg'
 import Kshitiz from './assets/kshitiz.png'
+import Hel from './assets/hel.png'
+import Nishan from './assets/nishan.jpeg'
 
 const college_list = [college1,
 college2,
@@ -103,12 +105,18 @@ const mentors =[
   // {avatar: Petya, name: 'Petya Kangalova', organization: 'Humanitarian OpenStreetMap Team', designation: 'Tech Collective Facilitator'},
   {avatar: Nirab, name: 'Nirab Pudasaini', organization: 'Open Mapping Hub - Asia Pacific', designation: 'Open Tech and Innovation Specialist'},
   {avatar: Saurav, name: 'Saurav Bhattarai', organization: 'Kathmandu Living Labs', designation: 'Systems Architect and Engineer'},
-  {avatar: Ichchha, name: 'Ichchha Moktan', organization: 'Kathmandu Living Labs', designation: 'Tech and Innovation Lead'}
+  {avatar: Ichchha, name: 'Ichchha Moktan', organization: 'Kathmandu Living Labs', designation: 'Tech and Innovation Lead'},
+  // {avatar: Hel, name: 'Hel Nershing Thapa', organization: 'Kathmandu Living Labs', designation: 'Frontend Engineer'},
+  // {avatar: Nishan, name: 'Nishan Aryal', organization: 'ICMS YouthMappers', designation: 'Community Lead'}
 ]
 const presenters =[
   {avatar: RobSavoye, name: 'Rob Savoye', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Technical Lead'},
   {avatar: Ramya, name: 'Ramya Ragupathy', organization: 'Humanitarian OpenStreetMap Team', designation: 'Module Owner'},
-  {avatar: Petya, name: 'Petya Kangalova', organization: 'Humanitarian OpenStreetMap Team', designation: 'Tech Collective Facilitator'}
+  {avatar: Petya, name: 'Petya Kangalova', organization: 'Humanitarian OpenStreetMap Team', designation: 'Tech Collective Facilitator'},
+  {avatar: Ichchha, name: 'Ichchha Moktan', organization: 'Kathmandu Living Labs', designation: 'Tech and Innovation Lead'},
+  {avatar: Nirab, name: 'Nirab Pudasaini', organization: 'Open Mapping Hub - Asia Pacific', designation: 'Open Tech and Innovation Specialist'},
+  {avatar: Hel, name: 'Hel Nershing Thapa', organization: 'Kathmandu Living Labs', designation: 'Frontend Engineer'},
+  {avatar: Nishan, name: 'Nishan Aryal', organization: 'ICMS YouthMappers', designation: 'Community Lead'}
 ]
 
 function App(props) {
