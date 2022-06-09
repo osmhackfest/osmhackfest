@@ -268,7 +268,7 @@ function App(props) {
               <li>As the events will be hands on, participants are expected to bring their laptops for the event.</li>
             </ol>
             <br/>
-            <b><i>This event is closed now.</i></b>
+            <b><i>Event registration is closed.</i></b>
             <br/>
             <br/>
             <div style={{width: '100%', maxWidth: 720, margin: 'auto'}}>
