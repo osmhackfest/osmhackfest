@@ -7,6 +7,7 @@ import Logo from './assets/logo.png'
 import EventInfo from './assets/event_info.png'
 import EventTimeline from './assets/event_timeline.png'
 import EventActivities from './assets/event_activities.png'
+import PreHackfest from './assets/pre-hackfest.jpeg'
 import './App.css';
 
 import ParticleBackground from 'react-particle-backgrounds'
@@ -267,6 +268,15 @@ function App(props) {
               <li>As the events will be hands on, participants are expected to bring their laptops for the event.</li>
             </ol>
             <br/>
+            <b><i>This event is closed now.</i></b>
+            <br/>
+            <br/>
+            <div style={{width: '100%', maxWidth: 720, margin: 'auto'}}>
+            The event happened successfully!! Thanks to our amazing presenters: Petya Kangalova, Ramya Ragupathy and Rob Savoye.
+            <br/>
+            <br/>
+            <img src={PreHackfest} style={{width: '100%'}}/>
+            </div>
             <br/>
             <Button onClick={()=>window.location.href=workshop_form_link} disabled>
               Apply for this workshop
