@@ -162,6 +162,7 @@ function App(props) {
             Workshop
           </NavItem>
         </NavBar>
+        <h3 style={{color: 'red'}}>Registration is closed!</h3>
           <Section>
             <Title>
               OSM Hackfest 2022
@@ -176,7 +177,7 @@ function App(props) {
             </Description>
           </Section>
           <Section>
-            <Button onClick={()=>window.location.href=registration_form_link}>
+            <Button onClick={()=>window.location.href=registration_form_link} disabled>
               Register
             </Button>
             <Button onClick={()=>window.location.href=`#${schedule_id}`}>
