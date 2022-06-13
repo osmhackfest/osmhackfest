@@ -52,8 +52,8 @@ export const Button = ({children, onClick, disabled}) => {
 export const Footer = ({children}) => {
   return(<div style={{backgroundColor:'#202020', padding: 50, color:'#eee', textAlign:'center'}}>{children}</div>)
 }
-export const Logos = ({items}) => {
-  return(<div>{items.map(item=><img src={item} style={{maxHeight: 80, maxWidth: 230, margin: 20}}/>)}</div>)
+export const Logos = ({items, big}) => {
+  return(<div>{items.map(item=><img src={item} style={{maxHeight: big?120:80, maxWidth: big?300:230, margin: 20}}/>)}</div>)
 }
 export const Cards = ({items}) => {
   return(<div style={{display: 'flex', flexWrap:'wrap', alignItems: 'stretch', maxWidth:items.length*202 > 800 ? 800 : items.length*202, margin:'auto'}} >

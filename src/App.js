@@ -92,10 +92,14 @@ const club_list =[
 
 const org_list = [
   org1,
-  org2,
-  org3,
+]
+const collaboration_org_list = [
   org4,
+  org3,
   org5
+]
+const supporting_org_list = [
+  org2,
 ]
 
 const mentors =[
@@ -303,10 +307,30 @@ function App(props) {
         </Section>
         <Section bgColor="#eee">
           <ContentTitle>
-            Organizers
+            Organized by
           </ContentTitle>
           <ContentDescription>
-            <Logos items={org_list}/>
+            <Logos items={org_list} big/>
+          </ContentDescription>
+          <br/>
+          <br/>
+        </Section>
+        <Section>
+          <ContentTitle>
+            In collaboration with
+          </ContentTitle>
+          <ContentDescription>
+            <Logos items={collaboration_org_list}/>
+          </ContentDescription>
+          <br/>
+          <br/>
+        </Section>
+        <Section bgColor="#eee">
+          <ContentTitle>
+            Supported by
+          </ContentTitle>
+          <ContentDescription>
+            <Logos items={supporting_org_list}/>
           </ContentDescription>
           <br/>
           <br/>
