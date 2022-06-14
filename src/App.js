@@ -59,6 +59,7 @@ import Ichchha from './assets/ichchha.jpeg'
 import Kshitiz from './assets/kshitiz.png'
 import Hel from './assets/hel.png'
 import Nishan from './assets/nishan.jpeg'
+import Yogesh from './assets/YogeshGirikumar.jpeg'
 
 const college_list = [college1,
 college2,
@@ -112,6 +113,7 @@ const mentors =[
   {avatar: Ichchha, name: 'Ichchha Moktan', organization: 'Kathmandu Living Labs', designation: 'Tech and Innovation Lead'},
   {avatar: Nishan, name: 'Nishan Aryal', organization: 'ICMS YouthMappers', designation: 'Community Lead'},
   {avatar: Hel, name: 'Hel Nershing Thapa', organization: 'Kathmandu Living Labs', designation: 'Frontend Engineer'},
+  {avatar: Yogesh, name: 'Yogesh Girikumar', organization: 'Humanitarian OpenStreetMap Team', designation: 'Technical Projects Coordinator'},
 ]
 const presenters =[
   {avatar: RobSavoye, name: 'Rob Savoye', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Technical Lead'},
