@@ -1,7 +1,8 @@
 import {
   Header, Main, NavBar, NavItem, Hero, Section, Title,
   PageContent, ContentTitle, ContentDescription, Logos,
-  Subtitle, Description, Button, Footer, HeroDescription, Cards
+  Subtitle, Description, Button, Footer, HeroDescription, Cards,
+  FinalistTable
 } from './components/all'
 import Logo from './assets/logo.png'
 import EventInfo from './assets/event_info.png'
@@ -244,15 +245,22 @@ function App(props) {
             <Cards items={mentors}/>
             <br/>
           </ContentDescription>
-          <Button onClick={()=>window.location.href=registration_form_link}>
-            Submit idea for Hackfest
-          </Button>
+          <br/>
+          <br/>
+          </Section>
+          <Section bgColor="#fff">
+          <br/>
+          <h3 style={{color:'#333'}}>Finalists (Participating Teams)</h3>
+          <ContentDescription>
+            <FinalistTable/>
+            <br/>
+          </ContentDescription>
           <br/>
           <br/>
           </Section>
           </div>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             <span id={pre_event_id}>OSM Workshop (Pre-Event)</span>
           </ContentTitle>
@@ -292,7 +300,7 @@ function App(props) {
             <br/>
           </ContentDescription>
         </Section>
-        <Section bgColor="#eee">
+        <Section>
           <ContentTitle>
             Participating Colleges
           </ContentTitle>
@@ -300,7 +308,7 @@ function App(props) {
             <Logos items={college_list}/>
           </ContentDescription>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             Supporting Student Clubs
           </ContentTitle>
@@ -308,7 +316,7 @@ function App(props) {
             <Logos items={club_list}/>
           </ContentDescription>
         </Section>
-        <Section bgColor="#eee">
+        <Section>
           <ContentTitle>
             Organized by
           </ContentTitle>
@@ -318,7 +326,7 @@ function App(props) {
           <br/>
           <br/>
         </Section>
-        <Section>
+        <Section bgColor="#eee">
           <ContentTitle>
             In collaboration with
           </ContentTitle>
@@ -328,7 +336,7 @@ function App(props) {
           <br/>
           <br/>
         </Section>
-        <Section bgColor="#eee">
+        <Section>
           <ContentTitle>
             Supported by
           </ContentTitle>
