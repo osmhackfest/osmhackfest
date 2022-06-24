@@ -205,7 +205,7 @@ export const Cards = ({ items }) => {
 
 export const FinalistTable = ({}) => {
   return (
-    <table style={{maxWidth: 840, margin:'auto', backgroundColor: '#eee'}}>
+    <table style={{maxWidth: 840, margin:'auto', backgroundColor: '#fefefe'}}>
       <tbody>
         <tr>
           <td colspan="1" rowspan="1" style={{borderBottom: '1px solid #999'}}>

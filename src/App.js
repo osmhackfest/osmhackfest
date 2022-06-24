@@ -62,6 +62,7 @@ import Hel from './assets/hel.png'
 import Nishan from './assets/nishan.jpeg'
 import Yogesh from './assets/YogeshGirikumar.jpeg'
 import Arjun from './assets/arjun.jpg'
+import Bal from './assets/bal.jpg'
 
 const college_list = [college1,
 college2,
@@ -118,6 +119,12 @@ const mentors =[
   {avatar: Yogesh, name: 'Yogesh Girikumar', organization: 'Humanitarian OpenStreetMap Team', designation: 'Technical Projects Coordinator'},
   {avatar: Arjun, name: 'Arjun Gautam', organization: 'Open Tech Community', designation: 'FOSS, OSM and OD Volunteer'},
 ]
+const judges =[
+  {avatar: Bal, name: 'Bal Krishna Joshi', organization: 'Thamel.com', designation: 'Founder'},
+  {avatar: Ramya, name: 'Ramya Ragupathy', organization: 'Humanitarian OpenStreetMap Team', designation: 'Module Owner'},
+  {avatar: Nirab, name: 'Nirab Pudasaini', organization: 'Open Mapping Hub - Asia Pacific', designation: 'Open Tech and Innovation Specialist'},
+]
+
 const presenters =[
   {avatar: RobSavoye, name: 'Rob Savoye', organization: 'Humanitarian OpenStreetMap Team', designation: 'Senior Technical Lead'},
   {avatar: Ramya, name: 'Ramya Ragupathy', organization: 'Humanitarian OpenStreetMap Team', designation: 'Module Owner'},
@@ -250,7 +257,17 @@ function App(props) {
           <br/>
           <br/>
           </Section>
-          <Section bgColor="#fff">
+          <Section>
+          <br/>
+          <h3 style={{color:'#333'}}>Judges</h3>
+          <ContentDescription>
+            <Cards items={judges}/>
+            <br/>
+          </ContentDescription>
+          <br/>
+          <br/>
+          </Section>
+          <Section bgColor="#eee">
           <br/>
           <h3 style={{color:'#333'}}>Finalists (Participating Teams)</h3>
           <ContentDescription>
@@ -262,6 +279,17 @@ function App(props) {
           </Section>
           </div>
         </Section>
+
+        {/*<Section bgColor="#fff">
+        <br/>
+        <h3 style={{color:'#333'}}>Winning Team</h3>
+        <ContentDescription>
+          <br/>
+        </ContentDescription>
+        <br/>
+        <br/>
+        </Section>*/}
+
         <Section bgColor="#eee">
           <ContentTitle>
             <span id={pre_event_id}>OSM Workshop (Pre-Event)</span>
