@@ -386,14 +386,14 @@ export const FinalistTable = ({}) => {
         <tr>
           <td colspan="1" rowspan="1" style={{borderBottom: '1px solid #999'}}>
             <p>
-              <span>
+              <span style={{textDecoration: 'line-through'}}>
                   KU-GEOAI
               </span>
             </p>
           </td>
           <td colspan="1" rowspan="1" style={{borderBottom: '1px solid #999'}}>
             <p>
-              <span>
+              <span style={{textDecoration: 'line-through'}}>
                 Web-based Data Visualization and Need Assessment of Emergency
                 Health Services
               </span>
@@ -401,7 +401,7 @@ export const FinalistTable = ({}) => {
           </td>
           <td colspan="1" rowspan="1" style={{borderBottom: '1px solid #999'}}>
             <p>
-              <span>Kathmandu University</span>
+              <span style={{textDecoration: 'line-through'}}>Kathmandu University</span>
             </p>
           </td>
         </tr>
