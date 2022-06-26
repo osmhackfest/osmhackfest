@@ -78,6 +78,9 @@ import Yogesh from "./assets/YogeshGirikumar.jpeg";
 import Arjun from "./assets/arjun.jpg";
 import Bal from "./assets/bal.jpg";
 import Winner from "./assets/winner.png";
+import Geoneer from "./assets/geoneer.png";
+import Pollyanna from "./assets/pollyanna.png";
+import Sagarmatha from "./assets/sagarmatha.png";
 
 const college_list = [
   college1,
@@ -338,7 +341,7 @@ function App(props) {
         </div>
         <Section>
           <ContentTitle>
-            <span id={schedule_id}>Hackfest Timeline & Activities</span>
+            <span id={schedule_id}>OSM Hackfest 2022</span>
           </ContentTitle>
 
           <ContentDescription>
@@ -415,9 +418,39 @@ function App(props) {
             </Section>
             <Section bgColor="#fff">
               <br />
-              <h3 style={{ color: "#333" }}>Winning Team - Team Omnecal</h3>
+              <h3 style={{ color: "#333" }}>OSM Hackfest 2022 Winning Team - Team Omnecal</h3>
               <ContentDescription>
-                <img src={Winner} style={{maxWidth:720}}/>
+                <img src={Winner} style={{maxWidth:720, width: '100%'}}/>
+                <br />
+              </ContentDescription>
+              <br />
+              <br />
+            </Section>
+            <Section bgColor="#fff">
+              <br />
+              <h3 style={{ color: "#333" }}>OSM Hackfest 2022 Winner under the title 'Impactful Project' - Team Geoneer</h3>
+              <ContentDescription>
+                <img src={Geoneer} style={{maxWidth:720, width: '100%'}}/>
+                <br />
+              </ContentDescription>
+              <br />
+              <br />
+            </Section>
+            <Section bgColor="#fff">
+              <br />
+              <h3 style={{ color: "#333" }}>OSM Hackfest 2022 Winner under the title 'Best Presentation' - Team Pollyanna</h3>
+              <ContentDescription>
+                <img src={Pollyanna} style={{maxWidth:720, width: '100%'}}/>
+                <br />
+              </ContentDescription>
+              <br />
+              <br />
+            </Section>
+            <Section bgColor="#fff">
+              <br />
+              <h3 style={{ color: "#333" }}>OSM Hackfest 2022 Winner under the title 'Best UI Design' - Team Sagarmatha</h3>
+              <ContentDescription>
+                <img src={Sagarmatha} style={{maxWidth:720, width: '100%'}}/>
                 <br />
               </ContentDescription>
               <br />
@@ -553,27 +586,39 @@ function App(props) {
         </Section>
       </PageContent>
       <Footer>
-        <span style={{ padding: 10 }}>
-          <b>Facebook Page: </b>{" "}
-          <a style={{ color: "white" }} href="https://fb.com/opentechcommunity">
-            Open Tech Community
-          </a>
-        </span>
-        <span style={{ padding: 10 }}>
-          <b>Website: </b>{" "}
-          <a style={{ color: "white" }} href="https://osmhackfest.github.io">
-            OSM Hackfest 2022
-          </a>
-        </span>
-        <span style={{ padding: 10 }}>
-          <b>Old Site: </b>{" "}
-          <a
-            style={{ color: "white" }}
-            href="https://osmhackfest.github.io/old-site"
-          >
-            OSM Hackfest 2022
-          </a>
-        </span>
+        <div>
+          <div style={{listStyleType: 'none', margin: 30, padding: 0, display: 'flex', justifyContent: 'space-around'}}>
+            <div style={{ padding: 10, alignItems: 'center' }}>
+              <a style={{ color: "white" }} href="https://fb.com/opentechcommunity">
+                Facebook Page
+              </a>
+            </div>
+            <div style={{ padding: 10, alignItems: 'center' }}>
+              <a style={{ color: "white" }} href="https://osmhackfest.github.io">
+                Website
+              </a>
+            </div>
+
+            <div style={{ padding: 10, alignItems: 'center' }}>
+              <a style={{ color: "white" }} href="https://twitter.com/OpenTechNP">
+                Twitter
+              </a>
+            </div>
+            <div style={{ padding: 10, alignItems: 'center' }}>
+              <a style={{ color: "white" }} href="https://www.youtube.com/channel/UCYyCLnr1HRxAedzl0V577gA">
+                Youtube Channel
+              </a>
+            </div>
+            <div style={{ padding: 10, alignItems: 'center' }}>
+              <a
+                style={{ color: "white" }}
+                href="https://osmhackfest.github.io/old-site"
+              >
+                Old Site
+              </a>
+            </div>
+          </div>
+        </div>
       </Footer>
     </Main>
   );
