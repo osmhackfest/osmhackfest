@@ -114,7 +114,7 @@ const club_list = [
 ];
 
 const org_list = [org1];
-const collaboration_org_list = [org4, org3, org5];
+const collaboration_org_list = [org5, org1, org4, org3];
 const supporting_org_list = [org2];
 
 const mentors = [
@@ -273,7 +273,8 @@ function App(props) {
             <NavItem link={`#${schedule_id}`}>Schedule</NavItem>
             <NavItem link={`#${pre_event_id}`}>Workshop</NavItem>
           </NavBar>
-          <h3 style={{ color: "red" }}>Registration is closed!</h3>
+          <h3 style={{ color: "red" }}>We are coming soon with OSM Hackfest 2023</h3>
+          <h3 style={{ color: "grey"}}>Registration is closed!</h3>
           <Section>
             <Title>OSM Hackfest 2022</Title>
             <Subtitle>Open Technologies for Public Good</Subtitle>
@@ -560,22 +561,25 @@ function App(props) {
             <Logos items={club_list} />
           </ContentDescription>
         </Section>
+
         <Section>
-          <ContentTitle>Organized by</ContentTitle>
-          <ContentDescription>
-            <Logos items={org_list} big />
-          </ContentDescription>
-          <br />
-          <br />
-        </Section>
-        <Section bgColor="#eee">
-          <ContentTitle>In collaboration with</ContentTitle>
+          <ContentTitle>Organizers</ContentTitle>
           <ContentDescription>
             <Logos items={collaboration_org_list} />
           </ContentDescription>
           <br />
           <br />
         </Section>
+
+        <Section bgColor="#eee">
+          <ContentTitle>Sponsored by</ContentTitle>
+          <ContentDescription>
+            <Logos items={org_list} big />
+          </ContentDescription>
+          <br />
+          <br />
+        </Section>
+
         <Section>
           <ContentTitle>Supported by</ContentTitle>
           <ContentDescription>
